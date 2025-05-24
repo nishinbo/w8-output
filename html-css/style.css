@@ -91,7 +91,7 @@ label {
 .form-group {
     display: flex;
     flex-direction: column;
-    gap: 16px;       /* ← ラベルと入力の間隔。好みで */
+    gap: 16px;      
   }
 
 input {
