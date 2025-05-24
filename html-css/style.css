@@ -1,0 +1,126 @@
+
+body {
+    font-family: system-ui, sans-serif;
+    margin: 32px;
+    background: #111;
+    color: #fff;
+}
+
+h1 {
+    margin-bottom: 128px;
+}
+
+.grid {
+    margin-bottom: 128px;
+   
+}
+.grid-4x4 .tiles {
+   display: flex;
+   padding: 16px;
+   justify-content: center;
+   width: 600px;
+   border: 1px solid #fff;
+   gap: 16px;
+   flex-wrap: wrap;
+
+}
+
+.tile {
+    background: #da0fedae;
+    color: #fff;
+    padding: 16px;
+    border: 1px solid #fff;
+    width: 80px;
+    height: 16px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.tile:hover {
+    background: #da0fed;
+}
+
+.grid-2x2 .tiles {
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    width: 300px;
+    border: 1px solid #fff;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.grid-6x1 .tiles {
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    width: 900px;
+    border: 1px solid #fff;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.login-form {
+    margin: 0 16px 0;
+    border: 1px solid #fff;
+    padding: 32px;
+    width: 500px;
+    height: 500px;
+    background-color: #061521;
+
+    /* align-items: center; */
+}
+
+.login-form h2 {
+    font-size: 32px;
+    margin-bottom: 48px;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  
+}
+
+label {
+    font-size: 24px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;       /* ← ラベルと入力の間隔。好みで */
+  }
+
+input {
+    font-size: 24px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #1b262f;
+    border: 1px solid #433c3c;
+    color: #fff;
+}
+
+button {
+    margin-top: 24px;
+    font-size: 24px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: rgb(55, 0, 255);
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(100, 0, 255);
+}
+
+.login-form p {
+    font-size: 24px;
+    color: #6f6868;
+    margin: 8px 0 32px 0;
+}
+
+
